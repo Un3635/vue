@@ -1,0 +1,8 @@
+1. git init -> 初始化本地仓库，生成.git文件
+2. echo "" > readme.txt 变化跟踪
+3. git add . 
+	git commit -m "" -> 提交readme.txt
+4.添加远程仓库 -> https:// ssh://
+5. git origin 有可能存在 -> git remote rm origin
+6. git remote add origin https://(ssh://):name/.git
+7. git push -u origin master -> 上传
